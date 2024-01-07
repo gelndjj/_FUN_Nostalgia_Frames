@@ -1,4 +1,4 @@
-System,viewport_width,viewport_height
+﻿System,viewport_width,viewport_height
 Atari 7800,1280,960
 Atari Lynx,1600,1020
 Dreamcast,1280,960
@@ -12,7 +12,7 @@ NeoGeo Pocket/Color,1120,1064
 NES / Famicom,1024,960
 Nintendo 64,1280,960
 PC Engine,1024,960
-Playstation,1280,960
+Playstation - MAX RES,1280,960
 PSP,1440,816
 SG-1000,1280,960
 SNES,1024,896
