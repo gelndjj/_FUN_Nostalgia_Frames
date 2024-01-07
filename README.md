@@ -18,7 +18,7 @@
   <h3 align="center">Nostalgia Frames</h3>
 
   <p align="center">
-    Archive Management Tool
+    Retrogaming Overlays
     <br />
     <a href="https://github.com/gelndjj/Nostalgia_Frames"><strong>Explore the docs »</strong></a>
     <br />
@@ -54,7 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <div align="center">
-<img src="https://github.com/gelndjj/Nostalgia_Frames/blob/main/resources/image0.png" alt="Logo" width="128" height="128">
+<img src="https://github.com/gelndjj/Nostalgia_Frames/blob/main/resources/app_main.png" alt="Logo" width="128" height="128">
 </br>
 Nostalgia Frames is a desktop application designed for retro gaming enthusiasts to create and manage game overlays. This tool allows users to manage image overlays, edit CSV files for system configurations, and customize settings for their retro gaming setup.</br>
 <img src="https://github.com/gelndjj/Nostalgia_Frames/blob/main/resources/app_osx.png" alt="Screenshot" width="762" height="490">
