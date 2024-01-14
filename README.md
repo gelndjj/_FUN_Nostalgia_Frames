@@ -62,8 +62,15 @@ Nostalgia Frames is a desktop application designed for retro gaming enthusiasts 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SCREENSHOTS -->
-## Screenshots (MAC OS)
+## Clone Repository
+
+To clone the repository and start working with the project, follow these steps:
+
+1. Open your terminal.
+2. Navigate to the directory where you want to clone the repository.
+3. Run the following command:
+   ```bash
+   git clone https://github.com/gelndjj/Nostalgia_Frames.git
 
 <!-- PREREQUISITES -->
 
