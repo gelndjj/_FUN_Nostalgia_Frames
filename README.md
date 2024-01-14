@@ -58,6 +58,8 @@
 </br>
 Nostalgia Frames is a desktop application designed for retro gaming enthusiasts to create and manage game overlays. This tool allows users to manage image overlays, edit CSV files for system configurations, and customize settings for their retro gaming setup.</br>
 <img src="https://github.com/gelndjj/Nostalgia_Frames/blob/main/resources/app_main.png" alt="Screenshot" width="762" height="490">
+<img src="https://github.com/gelndjj/Nostalgia_Frames/blob/main/resources/app_main1.png" alt="Screenshot" width="762" height="490">
+<img src="https://github.com/gelndjj/Nostalgia_Frames/blob/main/resources/appmain2.png" alt="Screenshot" width="762" height="490">
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
