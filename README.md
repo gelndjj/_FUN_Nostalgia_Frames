@@ -112,63 +112,6 @@ To get started with the Nostalgia Frames, you will need to clone the repository 
 
 By following these steps, you can easily create custom overlays and manage system configurations for your retro gaming setup.
 
-<!-- GETTING STARTED -->
-## Standalone APP
-
-Install pyintaller
-```
-pip install pyinstaller
-```
-Generate the standalone app
-```
-pyinstaller --windowed --onefile your_script_name.py
-```
-
-## Create DMG(MacOS)
-
-#### Step 1: Create a New Folder for DMG Contents
-
-##### 1. Create a New Folder:
-+ Create a new folder on your desktop or in another convenient location. 
-+ This folder will hold the contents of your * . dmg file.
-+ Name it something like 'DMGContents" or similar.
-
-##### 2. Copy Your App and Applications Shortcut:
-+ Copy your "YourApp.app* file into this new folder.
-+ Open a new Finder window and go to the /Applications' folder.
-+ Drag the Applications folder into your 'DMGContents" folder while holding down the Cmd and 'Alt keys. This will create an alias (shortcut) to the Applications folder in your 'DMContents" folder.
-
-#### Step 2: Create the DMG File
-+ Now, use Disk Utility or the 'hdiutil command to create your . dm file from the "DMGContents" folder.
-+ Using Disk Utility:
-
-Follow the steps previously described but select the DMGContents* folder instead of just the app.
-+ Using Terminal with hdiutil:
-+ Use the hdiutil' command like before, but point it to your DMContents" folder.
-
-For example:
-```
-hdiutil create -volname "YourApp" -srcfolder /path/to/YourApp.app -ov -format UDZO YourApp.dmg
-```
-
-#### Step 3: Customize the DMG Appearance (Optional)
-+ To make the . dmg file look more professional, you can customize its appearance:
-
-+ Mount the DMG: Double-click the " . dmg" file to mount it.
-+ Open the Mounted Volume: Open the mounted volume in Finder.
-+ Arrange Icons: Arrange the app and the Applications shortcut in a way that encourages the user to drag the app into the Applications folder.
-+ You can add text instructions or use a background image to make this more intuitive.
-+ Set Icon Sizes and View Options:
-
-Set the icon size and the view options as you prefer (e.g., using 'View Show View Options' in Finder).
-
-+ You can make these view options default for all who open the dm by clicking
-+ Use as Defaults" at the bottom of the view options window.
-+ Eject and Test:
-+ After arranging everything, eject the dm (by dragging the mounted volume to the Trash or right-clicking and selecting 'Eject *) and then remount it to ensure your changes are saved.
-
-#### Step 4: Distribute the DMG File
-Once you're satisfied with the appearance and functionality, your * . dm file is ready for distribution.
 
 <!-- CONTRIBUTING -->
 ## Contributing
