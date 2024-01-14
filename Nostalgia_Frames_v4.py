@@ -9,6 +9,7 @@ class RetrogamingOverlayApp:
         self.root = root
         root.title("Nostalgia Frames")
         root.geometry("830x385")
+        root.iconphoto(True, ImageTk.PhotoImage(file="image0.icns"))
 
         # Right Frame for Image
         self.right_frame = tk.Frame(root)
@@ -80,7 +81,7 @@ class RetrogamingOverlayApp:
         self.root.bind('<BackSpace>', lambda event: self.delete_selected_files())
 
         # System ComboBox
-        self.system_combobox = ttk.Combobox(self.entry_frame, width=14)
+        self.system_combobox = ttk.Combobox(self.entry_frame, width=16)
         self.system_combobox.pack(side=tk.LEFT, padx=5)
         self.system_combobox.set("Select a system")
         self.system_resolutions = {}
@@ -323,9 +324,11 @@ class RetrogamingOverlayApp:
             self.width_entry.insert(0, width)
             self.height_entry.delete(0, tk.END)
             self.height_entry.insert(0, height)
+
     def load_pictures(self):
-        # Clear the listbox
-        self.file_treeview.delete(0, tk.END)
+        # Clear the treeview
+        for item in self.file_treeview.get_children():
+            self.file_treeview.delete(item)
 
         # Let the user select a folder
         folder_path = filedialog.askdirectory()
