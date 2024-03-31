@@ -64,6 +64,16 @@ Nostalgia Frames is a desktop application designed for retro gaming enthusiasts 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Screenshots on 1080 screen
+| ![SNES](screenshots/metroid_snes.png) | ![SNES](screenshots/mk_snes.png)  |
+|:-------------------------------------:|:---------------------------------:|
+|             SNES Overlay              |           SNES Overlay            |
+|     ![GB](screenshots/sm_gb.png)      | ![GB](screenshots/metroid_gb.png) |
+|              GB Overlay               |            GB Overlay             |
+|   ![PSX](screenshots/crash_psx.png)   | ![GG](screenshots/batman_gg.png)  |
+|              PSX Overlay              |            GG Overlay             |
+
+
 ## Clone Repository
 
 To clone the repository and start working with the project, follow these steps:
