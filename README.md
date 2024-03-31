@@ -64,7 +64,7 @@ Nostalgia Frames is a desktop application designed for retro gaming enthusiasts 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Screenshots on 1080 screen
+### RETROARCH Screenshots on 1080 screen (ODIN 2)
 | ![SNES](screenshots/metroid_snes.png) | ![SNES](screenshots/mk_snes.png)  |
 |:-------------------------------------:|:---------------------------------:|
 |             SNES Overlay              |           SNES Overlay            |
